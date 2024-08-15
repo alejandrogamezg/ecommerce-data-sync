@@ -2,14 +2,16 @@
 
 ## Descripción
 
-Este repositorio contiene el código fuente de un proyecto desarrollado en TypeScript que tiene como objetivo integrar el sistema de inventario con la plataforma de ventas de una empresa de comercio electrónico. El propósito de este proyecto es asegurar que la información del stock se actualice en tiempo real, mejorando la eficiencia operativa y la experiencia del cliente.
+Utilizar REST para conectar sistemas basados en HTTP para obtener y generar datos, y devolverlos en formato JSON.
 
 ## Contenido del Repositorio
 
 - **/index.ts**: Archivo de código en TypeScript con diferentes casos.
+-**/documents**: Documentación del proyecto.
 - **/screenshots**: Carpeta que incluye capturas de pantalla del código y otros aspectos clave del proyecto.
 - **README.md**: Archivo que estás leyendo actualmente, que proporciona una descripción general del proyecto.
-
+- **tsconfig.json**: Archivo de configuración de TypeScript.
+- **package.json**: Archivo de configuración del proyecto con dependencias y scripts.
 
 ## Contenido del script index.ts:
 
