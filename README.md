@@ -79,7 +79,7 @@ http://localhost:3000/api/docs#
 ![Consulta POST API](./screenshots/POST_USERS.png)
 
 - Consulta GET USERS
-![Consulta GET USERS](./screenshots/GET_USERS.png)
+![Consulta GET USERS](./screenshots/GET_USERS_.png)
 
 - Consulta GET USERS ID
 ![GET USERS ID](./screenshots/GET_USERS_ID.png)
