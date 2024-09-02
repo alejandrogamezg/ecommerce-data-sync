@@ -33,24 +33,59 @@ Utilizar REST para conectar sistemas basados en HTTP para obtener y generar dato
 cd nombre-del-repositorio
 ```
 
-2. Instalar TypeScript de forma global en tu sistema:
+2. Instalacion:
 ```bash
-npm install -g typescript
+npm install
 ```
-
 3. Inicia el servidor de desarrollo:
-Server listen default on `http://localhost:3000/`
 ```bash
-npm run start:dev
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+```
+## Swagger Url
+
+```bash
+http://localhost:3000/api/docs#
 ```
 
 ## Pruebas como Postman:
 
-- Consulta Get de todos los usuarios.
-![Consulta Get de todos los usuarios](./screenshots/get_users.png)
+- Consulta GET de todos los usuarios.
+![Consulta Get de todos los usuarios](./screenshots/get_users_POSTMAN.png)
+---
+- Consulta GET de todos los items del catálago.
+![Consulta Get de todos los items del catálago](./screenshots/get_items_POSTMAN.png)
+---
+- Consulta GET de una orden creada
+![Consulta Get de una orden creada](./screenshots/get_order_2_POSTMAN.png)
+---
 
-- Consulta Get de todos los items del catálago.
-![Consulta Get de todos los items del catálago](./screenshots/get_items.png)
 
-- Consulta Get de una orden creada
-![Consulta Get de una orden creada](./screenshots/get_order_2.png)
+## Swagger UI Screenshots
+
+- SWAGGER
+![SWAGGER](./screenshots/SWAGGER.png)
+
+- SCHEMAS
+![SCHEMAS](./screenshots/SCHEMAS.png)
+
+- Consulta GET API
+![Consulta GET API](./screenshots/GET.png)
+
+- Consulta POST USERS
+![Consulta POST API](./screenshots/POST_USERS.png)
+
+- Consulta GET USERS
+![Consulta GET USERS](./screenshots/GET_USERS.png)
+
+- Consulta GET USERS ID
+![GET USERS ID](./screenshots/GET_USERS_ID.png)
+
+- Consulta PATCH USERS ID
+![PATCH USERS ID](./screenshots/PATCH_USERT_ID.png)
+
+- Consulta DELETE USERS ID
+![Consulta DELETE USERS ID](./screenshots/DELETE_USER_ID.png)
