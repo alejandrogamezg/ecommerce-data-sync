@@ -19,6 +19,7 @@ Utilizar REST para conectar sistemas basados en HTTP para obtener y generar dato
 - TypeScript
 - NestJS
 - TypeORM
+- Jest
 
 
 ## Instalación y ejecución
@@ -51,7 +52,7 @@ $ npm run start:dev
 http://localhost:3000/api/docs#
 ```
 
-## Pruebas como Postman:
+## Pruebas con Postman:
 
 - Consulta GET de todos los usuarios.
 ![Consulta Get de todos los usuarios](./screenshots/get_users_POSTMAN.png)
@@ -89,3 +90,37 @@ http://localhost:3000/api/docs#
 
 - Consulta DELETE USERS ID
 ![Consulta DELETE USERS ID](./screenshots/DELETE_USER_ID.png)
+---
+## Pruebas Unitarias
+
+1. Ejecutar pruebas unitarias:
+```bash
+npm run test
+```
+- Resultado de las pruebas unitarias usando jest.
+![Resultado de las pruebas unitarias](./screenshots/result_pruebas_unitarias.png)
+---
+2. Ejecutar pruebas unitarias con informe de coverturta:
+```bash
+npm run test: cov
+```
+- Resultado de las pruebas unitarias usando jest.
+![Resultado de las pruebas unitarias usando jest](./screenshots/test_coverage.png)
+---
+
+## Documentación de Typescript en index.ts:
+
+- Varios tipos de datos diferentes.
+![Varios tipos de datos diferentes](./screenshots/tipodedatos.png)
+
+- Enumeraciones para representar diferentes valores.
+![Enumeraciones para representar diferentes valores](./screenshots/enumeraciones.png)
+
+- Los tipos any y unknown en diferentes situaciones.
+![Los tipos any y unknown en diferentes situaciones](./screenshots/tiposAnyUnknown.png)
+
+- Los tipos de unión e intersección en diferentes situaciones.
+![Los tipos de unión e intersección en diferentes situaciones](./screenshots/UnionInterseccion.png)
+
+- Los tipos de colección en diferentes situaciones.
+![Los tipos de colección en diferentes situaciones](./screenshots/Colecciones.png)

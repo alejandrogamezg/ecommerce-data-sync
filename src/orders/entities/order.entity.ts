@@ -1,6 +1,7 @@
+
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne,JoinColumn, CreateDateColumn, ManyToMany } from 'typeorm';
-import { User } from 'src/users/entities/user.entity';
-import { Item } from 'src/items/entities/item.entity';
+import { User } from '../../users/entities/user.entity';
+import { Item } from '../../items/entities/item.entity';
 
 
 @Entity()
