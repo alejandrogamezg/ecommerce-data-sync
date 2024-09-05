@@ -4,6 +4,15 @@
 
 Utilizar REST para conectar sistemas basados en HTTP para obtener y generar datos, y devolverlos en formato JSON.
 
+## Despliegue Heroku
+1. Enlace:
+```bash
+  https://rest-api-ecommerce-nao-fa65dee76db2.herokuapp.com/
+```
+1. Pruebas heroku:
+- Consulta en Heroku.                                          
+![Consulta en Heroku](./screenshots/api-heroku-funcionando.png)
+
 ## Estructura del Proyecto
 
 - **`documents`**: Contiene la documentación de la aplicación.
