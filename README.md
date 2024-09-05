@@ -103,7 +103,7 @@ npm install --save-dev jest
 ```bash
 npm run test
 ```
-- Resultado de las pruebas unitarias usando jest.                                         
+- Resultado de las pruebas unitarias usando jest.
 ![Resultado de las pruebas unitarias](./screenshots/result_pruebas_unitarias.png)
 
 3. Ejecutar pruebas unitarias con informe de coverturta:
